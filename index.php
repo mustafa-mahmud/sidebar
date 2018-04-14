@@ -28,9 +28,18 @@ and open the template in the editor.
         <script src="js/bootstrap.js"></script>
     </head>
     <body>
-        <?php
-        echo "Side Bar";
-        ?>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="sideBar">
+                    <div class="childBar">
+                        <input id="userUpdate" name="userUpdate" class="userUpdate" placeholder="S.L" />
+                        <p class="active">active</p>
+                        <p class="deactive">de-active</p>
+                        <p class="delete">delete</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="js/sideBar.js"></script>
     </body>
 </html>

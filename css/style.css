@@ -1,1 +1,50 @@
-
+/*=====Fixed Right Side Bar====*/
+.sideBar{
+    position: fixed;
+    top: 40%;
+    right: 0;
+    width: 200px;
+    background: #581845;
+    padding: 10px;
+    padding-right: 0px;
+    -webkit-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.sideBar p{
+    margin-bottom: 2px !important;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+.active , .deactive , .delete{
+}
+.childBar{
+    width: 130px;
+    /*float: right;*/
+    /*background: red;*/
+    /*overflow: hidden;*/
+}
+.childBar > p{
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*transition: width 1s;*/
+}
+.childBar > p:hover{
+    /*width: 110%;*/
+}
+.userUpdate{
+    /*background: blue;*/
+}
+.active{
+    border-right: 5px solid pink;
+    background: black;
+}
+.deactive{
+    border-right: 5px solid olive;
+    background: black;
+}
+.delete{
+    border-right: 5px solid red;
+    background: black;
+}
