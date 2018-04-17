@@ -1,9 +1,19 @@
 (function ($) {
     $(function () {
+        $(".cross").on({
+            mouseenter:function(){
+                var visible=$(".line2:visible").length;
+                if(visible>0){
+                    $("div[class^='line']").addClass("classHover");
+                }
+            },
+            mouseleave:function(){
+                $("div[class^='line']").removeClass("classHover");
+            }
+        });
         $(".cross").on("click", function () {
             let line2 = $(".line2:visible");
             if (line2.length > 0) {
-                $("div [class^='line']").css({"margin-bottom": "4px"});
                 $(".line2").css({"display": "none"});
                 $(".line1").addClass("line1Cross");
                 $(".line3").addClass("line3Cross");
