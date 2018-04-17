@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+        <head>
         <meta charset="UTF-8">
         <meta charset="UTF-8" />
         <meta http-equiv="Pragma" content="no-cache">
@@ -17,9 +17,9 @@ and open the template in the editor.
         <!--[if lte IE 9]>
         <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
         <![endif]-->
-        <title>SideBar</title>
+        <title>cross</title>
         <!----CSS----->
-        <link rel="stylesheet" href="css/sideBar.css" />
+        <link rel="stylesheet" href="css/cross.css" />
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/practise.css" />
         <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css" />
@@ -30,13 +30,14 @@ and open the template in the editor.
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="sideBar">
-                    <div class="active">
-                        <p>active</p>
-                    </div>
+                <div class="cross m-3">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                 </div>
             </div>
         </div>
-        <script src="js/sideBar.js"></script>
+        <!----JS----->
+        <script src="js/cross.js"></script>
     </body>
 </html>
