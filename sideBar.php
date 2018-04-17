@@ -31,11 +31,8 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row">
                 <div class="sideBar">
-                    <div class="childBar">
-                        <input id="userUpdate" name="userUpdate" class="userUpdate" placeholder="S.L" />
-                        <p class="active">active</p>
-                        <p class="deactive">de-active</p>
-                        <p class="delete">delete</p>
+                    <div class="active">
+                        <p>active</p>
                     </div>
                 </div>
             </div>
